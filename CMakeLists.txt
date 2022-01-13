@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(morris C)
+set(CMAKE_C_STANDARD 99)
+add_subdirectory(morristraversal)
+add_executable(morris main.c)
+target_link_libraries(morris PUBLIC morristraversal)

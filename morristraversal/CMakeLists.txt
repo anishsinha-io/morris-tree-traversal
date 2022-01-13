@@ -1,0 +1,2 @@
+add_library(morristraversal src/morris/morris.c include/morris/morris.h src/linkedlist/linkedlist.c include/linkedlist/linkedlist.h)
+target_include_directories(morristraversal PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
